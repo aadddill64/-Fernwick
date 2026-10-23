@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fernwick | Houseplants for the light you have</title>
+  <meta name="description" content="Fernwick is a neighbourhood plant nursery. Choose houseplants by the light in your room.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#top">Fernwick</a>
+
+      <!-- CSS-only mobile menu: the hidden checkbox drives the nav -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+      <label for="nav-toggle" class="nav-button" aria-hidden="true"><span></span></label>
+
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#plants">Plants</a></li>
+          <li><a href="#care">Care</a></li>
+          <li><a href="#visit">Visit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>Plants that suit the light you actually have.</h1>
+          <p>Fernwick is a neighbourhood nursery. Tell us which window you are working with and we will hand you something that will stay alive.</p>
+          <a class="btn" href="#plants">Find your plant</a>
+        </div>
+        <img class="hero-art" src="images/hero.svg" width="800" height="520"
+             alt="Illustration of a snake plant, a monstera, an aloe and a hanging pothos in coloured pots">
+      </div>
+    </section>
+
+    <section class="plants" id="plants">
+      <div class="wrap">
+        <h2>Start with your window</h2>
+        <p class="lead">Every plant here spends at least six months in our greenhouse before it reaches the shelf.</p>
+
+        <div class="plant-grid">
+          <article class="plant plant--wide plant--sage">
+            <figure>
+              <img src="images/snake.svg" width="400" height="500" loading="lazy" alt="Snake plant in a yellow pot">
+            </figure>
+            <div class="plant-body">
+              <h3>Snake plant</h3>
+              <p>Low light, very forgiving. It copes with north-facing rooms, long holidays and the odd forgotten week. Wipe the leaves now and then.</p>
+              <ul class="facts">
+                <li>Water every 2 to 3 weeks</li>
+                <li>Grows up to 90 cm</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="plant plant--narrow plant--sun">
+            <figure>
+              <img src="images/monstera.svg" width="400" height="500" loading="lazy" alt="Monstera with large heart-shaped leaves in a cream pot">
+            </figure>
+            <div class="plant-body">
+              <h3>Monstera</h3>
+              <p>Bright, indirect light. Give it a window with a sheer curtain and room to spread.</p>
+              <ul class="facts">
+                <li>Water weekly in summer</li>
+                <li>Likes a moss pole</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="plant plant--narrow plant--sky">
+            <figure>
+              <img src="images/pothos.svg" width="400" height="500" loading="lazy" alt="Pothos trailing from a hanging blue planter">
+            </figure>
+            <div class="plant-body">
+              <h3>Pothos</h3>
+              <p>Medium light, and happy on a high shelf or in a hanging pot. The vines can reach two metres.</p>
+              <ul class="facts">
+                <li>Water every 1 to 2 weeks</li>
+                <li>Easy to propagate in water</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="plant plant--wide plant--plum">
+            <figure>
+              <img src="images/aloe.svg" width="400" height="500" loading="lazy" alt="Aloe vera in a plum pot">
+            </figure>
+            <div class="plant-body">
+              <h3>Aloe vera</h3>
+              <p>Direct sun. Keep it on the sunniest sill you have and let the soil dry out fully between drinks.</p>
+              <ul class="facts">
+                <li>Water every 3 weeks</li>
+                <li>Pups can be split off in spring</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="care" id="care">
+      <div class="wrap">
+        <h2>Care at a glance</h2>
+        <p class="lead">The short version for each plant above.</p>
+
+        <table class="care-table">
+          <caption class="visually-hidden">Light, watering and repotting needs for each plant</caption>
+          <thead>
+            <tr><th scope="col">Plant</th><th scope="col">Light</th><th scope="col">Water</th><th scope="col">Repot</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Snake plant</th><td data-label="Light">Low to bright</td><td data-label="Water">Every 2 to 3 weeks</td><td data-label="Repot">Every 3 to 4 years</td></tr>
+            <tr><th scope="row">Monstera</th><td data-label="Light">Bright, indirect</td><td data-label="Water">When the top 5 cm is dry</td><td data-label="Repot">Every 2 years</td></tr>
+            <tr><th scope="row">Pothos</th><td data-label="Light">Low to medium</td><td data-label="Water">Every 1 to 2 weeks</td><td data-label="Repot">Every 2 to 3 years</td></tr>
+            <tr><th scope="row">Aloe vera</th><td data-label="Light">Direct sun</td><td data-label="Water">Every 3 weeks</td><td data-label="Repot">When crowded</td></tr>
+          </tbody>
+        </table>
+
+        <div class="tips">
+          <article>
+            <h3>Check the soil first</h3>
+            <p>Push a finger two knuckles deep. If it feels damp, wait a few more days.</p>
+          </article>
+          <article>
+            <h3>Water deeply, then wait</h3>
+            <p>Let water run out of the drainage holes, then empty the saucer so roots do not sit in it.</p>
+          </article>
+          <article>
+            <h3>Turn the pot</h3>
+            <p>Give it a quarter turn each week so every side gets light and the plant grows evenly.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="wrap visit-grid">
+        <div>
+          <h2>Visit the greenhouse</h2>
+          <p>14 Mill Lane, Riverside. Bring a photo of your window and we will help you choose.</p>
+          <dl class="hours">
+            <div><dt>Tuesday to Friday</dt><dd>9 am to 6 pm</dd></div>
+            <div><dt>Saturday</dt><dd>8 am to 4 pm</dd></div>
+            <div><dt>Sunday</dt><dd>10 am to 2 pm</dd></div>
+            <div><dt>Monday</dt><dd>Closed</dd></div>
+          </dl>
+        </div>
+
+        <form class="signup" action="#" method="post">
+          <h3>Get the Saturday restock list</h3>
+          <p>One short email each week with what just arrived.</p>
+          <div class="signup-row">
+            <label for="email" class="visually-hidden">Email address</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+            <button class="btn" type="submit">Sign me up</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 Fernwick. A student project built to practise responsive design.</p>
+    </div>
+  </footer>
+</body>
+</html>
